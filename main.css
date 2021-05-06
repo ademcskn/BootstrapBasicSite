@@ -1,0 +1,82 @@
+nav{
+    min-height: 58px;    
+}
+
+.title a{
+    color:red;
+    text-align: center;
+    padding: 10px 0 0 8px;    
+    text-decoration: none;
+}
+.title a:hover{
+    color: red;
+    text-decoration: none;
+}
+.subTitle a:hover{
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+.headerUl{
+    margin: auto 0;
+}
+.subTitle{
+    list-style-type: none;
+    margin: 5px;
+}
+.subTitle a {    
+    text-decoration: none;
+    margin-left: 15px;
+}
+h3,h4{
+    text-align: center;
+}
+.list{
+    text-align: center;
+    list-style-position: inside;
+   list-style-type: square;
+}
+
+.aboutTitle{ 
+    font-size: 16px;
+}
+
+.productSection{
+    display: grid;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .card img{
+      width: 100%;
+  }
+
+  .description {
+      padding: 10px 0px;
+  }
+
+  .hakkimizda{
+    text-align: start; 
+    margin: 0 15px 15px;
+  }
